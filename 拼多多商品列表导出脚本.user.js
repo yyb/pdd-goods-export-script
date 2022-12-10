@@ -73,7 +73,6 @@ let intervalTimer = setInterval(()=>{
                 nodeType:true,
                 innerHTML: buildTable(buildTr(rows))
             }
-            console.log("data",data)
             tableToExcel(data,"商品列表.xls")
 
 
